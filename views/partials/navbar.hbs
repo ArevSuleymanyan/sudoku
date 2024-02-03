@@ -1,0 +1,14 @@
+
+    <nav class="navbar navbar-light bg-secondary">
+      <a class="navbar-brand font-weight-bold text-white" href="/">SUDOKU</a>
+      <div>
+        {{#if name}}
+        <a class="navbar-brand text-white" href="/game/newgame">New Game</a>
+        <a class="navbar-brand text-white" href="/game/play">Play</a>
+        <a class="navbar-brand text-white" href="/logout">Log Out</a>
+        {{else}}
+        <a class="navbar-brand text-white" href="/login">Login</a>
+        <a class="navbar-brand text-white" href="/register">Register</a>
+        {{/if}}
+      </div>
+    </nav>

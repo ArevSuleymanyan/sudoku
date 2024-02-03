@@ -1,0 +1,41 @@
+.column,
+.poss {
+    border: 1px grey solid;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: slategray;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.start {
+    background-color: rgb(236, 236, 236);
+    cursor: default;
+}
+.num{
+    background-color: rgb(245, 236, 221);
+}
+
+#possible {
+    display: flex;
+    margin-left: 33%;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-left: 33%;
+}
+.jumbotron {
+    text-align: center;
+}
+
+#btn {
+    margin-bottom: 10px;
+}
+.btn {
+    margin: 5px;
+}
+.p{
+    background-color: rgb(123, 220, 250);
+}
